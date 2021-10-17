@@ -1,0 +1,78 @@
+<html lang="en">
+	<head>
+    <style>
+        body {
+            background-image: url("background 2.jpg");
+            background-size: cover;
+        }
+        .blah {
+            text-align: center;
+            padding: 2em 3em;
+            margin-bottom: 4em;
+            background-color: #007AF3;
+            border-radius: 50px;
+        }
+        h3 {
+            color: honeydew;
+        }
+        section {
+            padding-top: 10em;
+            justify-content: center;
+        }
+        </style>
+		<link rel="stylesheet" href="Grafikoncepts.CSS">
+			</head>
+            <meta charset="UTF-8">
+<meta name="viewport"content="width-device-width,
+initial-scale=1.0">
+            <body>
+                <div class="navbar">
+                    <div class="container">
+                        
+                        <a class="logo" href ="#">Grafi<span>Koncepts</span></a>
+                   <img id='mobile-cta' class="mobile-menu" src="menu.jpg" width= "14px" height="12px">
+                
+                    
+                             
+                
+                         <nav>
+                             <img id = 'mobile-exit'class="mobile-menu-exit" src = "EXIT.jpg" width = "24px" height="20px">
+                    <ul class="primary">
+                                <li class="current"><a href="Grafikoncepts.htm">Home</a></li>
+                                <li><a href="#"> Portfolio</a></li>
+                                <li><a href="contact.htm">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                      </ul>
+                    </ul> 
+                    </nav>
+                    </div>
+                        </div>
+                <section>
+               
+
+
+<div class="blah">
+    <h3>HEAD OFFICE: 50, Ladipo Road
+Mushin, Lagos.E-mail: grafikoncepts@gmail.com</h3>
+</div>
+<div class="blah">
+<h3>TEL: 08033073464, 09090047774.</h3>
+</div>
+<div class="blah">
+<h3>BRANCH OFFICE: 2, Sanusi Street,
+off Layi oyekanmi street, Mushin Lagos.</h3>
+</div>
+</section>
+<script>
+    const mobileBtn = document.getElementById('mobile-cta')
+nav = document.querySelector('nav')
+mobileBtnExit = document.getElementById('mobile-exit');
+mobileBtn.addEventListener('click', () => {
+	nav.classList.add('menu-btn');
+}) 
+mobileBtnExit.addEventListener('click', () => {
+	nav.classList.remove('menu-btn');
+})
+</script>
+            </body>
+</html>
